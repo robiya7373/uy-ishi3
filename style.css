@@ -1,0 +1,282 @@
+/* Normalize Css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/* Normalize Css */
+
+/*Header*/
+.header {
+  background-image: url(./img/Background1.svg);
+
+  height: 850px;
+}
+.header_title {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 37px;
+}
+.header_home {
+  border-radius: 47px;
+  width: 47px;
+  height: 47px;
+  background-color: #fff;
+  gap: 15px;
+}
+
+.header_sum {
+  display: flex;
+  gap: 60px;
+  color: #fff;
+
+  /* Subtitle / Base */
+  font-family: Rubik;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.header_sum2 {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 31px;
+  opacity: 0.7;
+  font-weight: 500;
+  line-height: 140%;
+  text-decoration-line: strikethrough;
+}
+.right_text {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+
+.right_subtitle {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 99.17px;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.btn {
+  border-radius: 25px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: #ff4948;
+  font-family: Rubik;
+  line-height: 140%;
+}
+
+.collection_title {
+  color: #180202;
+  text-align: center;
+
+  /* Subtitle / Base */
+  font-family: Rubik;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 130%;
+  padding: 70px 555px;
+}
+
+.collection_img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.feature {
+  padding: 70px 220px;
+}
+
+.product {
+  margin-top: 190px;
+}
+
+.product_text {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.img_section1 {
+  width: 332px;
+  height: 331px;
+  border-radius: 30px;
+  background: #ffe5ee;
+}
+
+.img_section2 {
+  width: 332px;
+  height: 331px;
+  border-radius: 30px;
+  background: #e5f1ff;
+}
+
+.img_section3 {
+  width: 332px;
+  height: 331px;
+  border-radius: 30px;
+  background: #e5fffb;
+}
+
+.product_text h1 {
+  margin-bottom: 10px;
+  color: #180202;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.product_img {
+  position: relative;
+  top: -70px;
+  right: -20px;
+}
+
+.product_cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_top {
+  background-image: url(./img/bck_nota.png);
+  width: 100%;
+  align-items: center;
+  margin-top: 90px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footer_Box {
+  width: 612px;
+  height: 292px;
+  border-radius: 20px;
+  background: #fff4f4;
+}
+
+.form_box {
+  display: flex;
+  width: 503px;
+  height: 61px;
+  padding-left: 30px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 73px;
+  background: #fff;
+  border: none;
+  gap: 150px;
+  margin: 36px 10px 4px 100px;
+}
+
+.footer_btn {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 140%;
+  display: inline-flex;
+  padding: 15px 30px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 50px;
+  background: #ff4948;
+  border: none;
+  height: 61px;
+}
+
+.form_box input {
+  color: #180202;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  outline: none;
+  border: none;
+}
+
+.footer_Box h1 {
+  color: #180202;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.footer_Box p {
+  color: #180202;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 30px;
+}
+
+.footer_Box {
+  padding: 54px 150px;
+}
+
+.footer_bottom {
+  height: 190px;
+  width: 100%;
+  background: #e86564;
+  margin-top: 190px;
+}
+
+.footer_link {
+  display: flex;
+  gap: 30px;
+}
+
+.foter_text {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.footer_img {
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
